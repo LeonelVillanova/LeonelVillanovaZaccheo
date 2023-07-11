@@ -1,0 +1,47 @@
+.navbar-container {
+    display: grid;
+    place-items: center;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    background-color: black;
+    color: white;
+  }
+
+  body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container h1{
+    color: white;
+  }
+
+  .container p{
+    color: white;
+  }
+
+  .cart-icon {
+    color: black;
+  }
+
+
+  body {
+    background-image: url('../img/skate4.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+  }
+
+
+
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-rectangle {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
